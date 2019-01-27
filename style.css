@@ -1,0 +1,351 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background:url('https://pp.userapi.com/c639123/v639123417/21a03/EydrOKpUO7U.jpg');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  color: #2b2a2c;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  margin-right: 34px; 
+}
+.menu-list a:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+.menu-button {
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 12px 22px;
+}
+.menu-button:hover {
+  color: #fff;
+  background-color: #2b2a2c
+}
+
+.hero{
+  padding-top:112px;
+  background:url('https://wmpics.pics/di-CFIR.png') no-repeat right bottom;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 124px;
+  margin-bottom: 91px;
+  max-width: 1170px;
+}
+
+.hero-subtitle{
+  font-size: 32px;
+}
+
+.hero-title, .about-description__title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-description{
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.hero-social{
+  margin-top: 26px;
+}
+
+.social{
+  display:inline-block;
+  width:41px;
+  height:41px;
+  color:#fff;
+  text-align: center;
+  line-height: 41px;
+  margin-right: 10px;
+}
+
+.behance-bg{
+  background-color: #1869ff;
+}
+
+.facebook-bg{
+  background-color: #3a5898;
+}
+
+.instagram-bg{
+  background-color: #13578a;
+}
+
+.vk-bg{
+  background-color: #56acef;
+}
+
+.hero-buttons{
+    margin-top: 26px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #2b2a2c;
+  border-radius: 25px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.button-primary{
+  color: #fff;
+}
+
+.button-o{
+  background-color: transparent;
+  color:#6a696b;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -30px;
+}
+
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.progect-card__image {
+  height: 300px;
+}
+.landing-page {
+  background: url('http://www.vizhu-design.ru/system/imglib/data/11/291/Brandbook_Lookmart_07.jpg') center;
+  background-size: 100%;
+}
+.landing-page_new {
+  background: url('http://freelance.ru/img/portfolio/pics/00/23/92/2331233.jpg') center no-repeat;
+  background-size: 100%;
+}
+.corporate-page {
+  background: url('https://l-site.com.ua/images/stories/ilin/ilinall.jpg') center;
+  background-size: 125%;
+}
+.corporate-page_consalting {
+  background: url('http://itd3.mycdn.me/image?id=872585786323&t=20&plc=WEB&tkn=*pnxRhX1sizXEQRwxQl04J1-qAIM') center no-repeat;
+  background-size: 100%;
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.about-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px; 
+}
+
+.about-description {
+  max-width: 1440px;
+  padding-right: 100px;
+}
+
+.about-description_subtitle {
+  font-size: 12px;
+  color: #717072;
+  font-weight: 300;
+  line-height: 24px;
+  width: 471px;
+  height: 252px;
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.foter-info_text {
+  display: flex;
+  align-items: center;
+}
+.footer-info__copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-style: 14px;
+}
+.footer-social__link {
+  font-size: 23px;
+  padding: 0 8px;
+  line-height: 13.2px;
+}
+.footer-info-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 25px;
+}
+.footer-button {
+  color: #8d8d8e;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #8d8d8e;
+  padding: 10px 22px;
+  
+}
+.footer-button:hover {
+  font-weight: 800;
+  color: #2b2a2c;
+  background-color:#8d8d8e;
+}
+
+@media (max-width: 1200px){
+    .container{
+        width: 965px;
+    }
+    .project-cards{
+      justify-content: space-evenly;
+    }
+    .project-card{
+        width: 48%;
+    }
+    .about-picture{
+      align-items: center;
+    }
+    .about-description{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        width: 760px;
+    }
+}
+
+@media (max-width: 768px){
+    .description_small{
+        font-size: 10px;
+    }
+    .menu-list {
+        display: none;
+    }
+    .container{
+        width: 95%;
+    }
+    .hero{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .hero-info{
+        width: 100%;
+        padding-bottom: 320px;
+        background-position: bottom;
+    }
+    .projects{
+        padding-top: 20px;
+    }
+    .project-cards{
+        padding-top: 10px;
+    }
+    .project-card{
+        width: 95%;
+        margin: 30px auto;
+    }
+    .about-info {
+    flex-wrap: wrap;
+}
+}
